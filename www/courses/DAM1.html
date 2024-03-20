@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIFP Larian</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <div class="title-page">
+        CIFP Larian <br>
+        <!-- mobile -->
+        <input type="search" class="search-bar-mobile"> <a href=""><button id="button-search-bar-mobile">Buscar</button></a>
+        <!-- tablet -->
+        <input type="search" class="search-bar-tablet"> <a href=""><button id="button-search-bar-tablet">Buscar</button></a>
+        <!-- laptop -->
+        <input type="search" class="search-bar-laptop"> <a href=""><button id="button-search-bar-laptop">Buscar</button></a> <br>
+    </div>
+    <div class="buttons">
+        <div class="dropdown">
+            <a href="../index.html"><button class="button-dropdown">INICIO</button></a>
+        </div>
+        <div class="dropdown" onclick="showOptions('cursos-2')">
+            <button class="button-dropdown">CURSOS</button>
+        </div>        
+    </div>
+    </div>
+    <div id="options-container"></div>
+    <div class="subtitle-txt">
+        DAM 1º
+    </div>
+    <div class="welcome-txt">
+        <p><b>1º Desarrollo de Aplicaciones Multiplataforma</b></p>
+        <p>¡Bienvenidos al primer curso de Desarrollo de Aplicaciones Multiplataforma (DAM)! En este emocionante viaje de aprendizaje, exploraremos los fundamentos esenciales del desarrollo de software, desde la programación básica hasta la creación de aplicaciones multiplataforma.</p>
+    </div>
+    <div class="subtitle-txt">
+        Módulos <br>
+        <button class="button-content">DESPLEGAR</button>
+    </div>
+    <div class="sub-welcome-txt">
+        <h2>Bases de Datos</h2>
+        <p>En este módulo explorarás los fundamentos de las bases de datos. Aprenderás sobre diseño, implementación y gestión de bases de datos, así como consultas SQL, normalización y optimización de bases de datos.</p>
+    </div>
+    <div class="sub-welcome-txt">
+        <h2>Entornos de Desarrollo</h2>
+        <p>En el módulo de Entornos de Desarrollo, adquirirás habilidades para desarrollar software en diferentes plataformas. Aprenderás sobre entornos de desarrollo integrados (IDE), lenguajes de programación, depuración de código y gestión de proyectos de desarrollo de software.</p>
+    </div>
+    <div class="sub-welcome-txt">
+        <h2>Formación y Orientación Laboral</h2>
+        <p>La asignatura de Formación y Orientación Laboral (FOL) aborda temas relacionados con el mercado laboral y la inserción laboral en el sector de la informática. Aprenderás sobre legislación laboral, derechos y deberes del trabajador, seguridad social, búsqueda de empleo y emprendimiento en el ámbito de la informática.</p>
+    </div>
+    <div class="sub-welcome-txt">
+        <h2>Lenguaje de Marcas y Sistemas de Gestión de Información</h2>
+        <p>En este módulo te familiarizarás con el lenguaje de marcado y los sistemas de gestión de información. Aprenderás sobre HTML, XML, CSS, así como sobre sistemas de gestión de contenido (CMS) y tecnologías asociadas.</p>
+    </div>
+    <div class="sub-welcome-txt">
+        <h2>Programación</h2>
+        <p>El módulo de Programación te proporcionará las habilidades necesarias para desarrollar software. Aprenderás sobre algoritmos, estructuras de datos, programación orientada a objetos, desarrollo de aplicaciones y resolución de problemas algorítmicos.</p>
+    </div>
+    <div class="sub-welcome-txt">
+        <h2>Sistemas Informáticos</h2>
+        <p>En este módulo explorarás los sistemas informáticos desde una perspectiva más amplia. Aprenderás sobre arquitectura de computadoras, sistemas operativos, virtualización, almacenamiento de datos y administración de sistemas informáticos.</p>
+    </div>
+    <div class="subtitle-txt">
+        Horario
+    </div>
+    <div class="table">
+        <table>
+            <tr>
+                <th class="dark-td-th">Hora</th>
+                <th class="dark-td-th">Lunes</th>
+                <th class="dark-td-th">Martes</th>
+                <th class="dark-td-th">Miércoles</th>
+                <th class="dark-td-th">Jueves</th>
+                <th class="dark-td-th">Viernes</th>
+            </tr>
+            <tr>
+                <td class="dark-td-th">8:00 - 8:55</td>
+                <td>Bases de Datos</td>
+                <td>Entornos de Desarrollo</td>
+                <td>Entornos de Desarrollo</td>
+                <td>Lenguaje de Marcas y Sistemas de Gestión de Información</td>
+                <td>Programación</td>
+            </tr>
+            <tr>
+                <td class="dark-td-th">8:55 - 9:50</td>
+                <td>Entornos de Desarrollo</td>
+                <td>Entornos de Desarrollo</td>
+                <td>Entornos de Desarrollo</td>
+                <td>Entornos de Desarrollo</td>
+                <td>Programación</td>
+            </tr>
+            <tr>
+                <td class="dark-td-th">9:50 - 10:45</td>
+                <td>Entornos de Desarrollo</td>
+                <td>Lenguaje de Marcas y Sistemas de Gestión de Información</td>
+                <td>Bases de Datos</td>
+                <td>Programación</td>
+                <td>Entornos de Desarrollo</td>
+            </tr>
+            <tr>
+                <td class="dark-td-th">10:45 - 11:15</td>
+                <td class="dark-td-th">Recreo</td>
+                <td class="dark-td-th">Recreo</td>
+                <td class="dark-td-th">Recreo</td>
+                <td class="dark-td-th">Recreo</td>
+                <td class="dark-td-th">Recreo</td>
+            </tr>
+            <tr>
+                <td class="dark-td-th">11:15 - 12:10</td>
+                <td>Programación</td>
+                <td>Lenguaje de Marcas y Sistemas de Gestión de Información</td>
+                <td>Lenguaje de Marcas y Sistemas de Gestión de Información</td>
+                <td>Bases de Datos</td>
+                <td>Bases de Datos</td>
+            </tr>
+            <tr>
+                <td class="dark-td-th">12:10 - 13:05</td>
+                <td>Formación y Orientación Laboral</td>
+                <td>Bases de Datos</td>
+                <td>Lenguaje de Marcas y Sistemas de Gestión de Información</td>
+                <td>Bases de Datos</td>
+                <td>Bases de Datos</td>
+            </tr>
+            <tr>
+                <td class="dark-td-th">13:05 - 14:00</td>
+                <td>Programación</td>
+                <td>Bases de Datos</td>
+                <td>Programación</td>
+                <td>Programación</td>
+                <td>Formación y Orientación Laboral</td>
+            </tr>       
+        </table>        
+    </div>
+    <script src="../javascript/display-content.js"></script>
+</body>
+</html>

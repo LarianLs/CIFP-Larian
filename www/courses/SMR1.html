@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIFP Larian</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <div class="title-page">
+        CIFP Larian <br>
+        <!-- mobile -->
+        <input type="search" class="search-bar-mobile"> <a href=""><button id="button-search-bar-mobile">Buscar</button></a>
+        <!-- tablet -->
+        <input type="search" class="search-bar-tablet"> <a href=""><button id="button-search-bar-tablet">Buscar</button></a>
+        <!-- laptop -->
+        <input type="search" class="search-bar-laptop"> <a href=""><button id="button-search-bar-laptop">Buscar</button></a> <br>
+    </div>
+    <div class="buttons">
+        <div class="dropdown">
+            <a href="../index.html"><button class="button-dropdown">INICIO</button></a>
+        </div>
+        <div class="dropdown" onclick="showOptions('cursos-2')">
+            <button class="button-dropdown">CURSOS</button>
+        </div>        
+    </div>
+    </div>
+    <div id="options-container"></div>
+    <div class="subtitle-txt">
+        SMR 1º
+    </div>
+    <div class="welcome-txt">
+        <p><b>1º Sistemas Microinformáticos y Redes</b></p>
+        <p>¡Bienvenidos al primer curso de Sistemas Microinformáticos y Redes (SMR)! En este emocionante viaje de aprendizaje, exploraremos los fundamentos esenciales de la informática, desde los componentes físicos de los ordenadores hasta la configuración de redes informáticas.</p>
+    </div>
+    <div class="subtitle-txt">
+        Módulos <br>
+        <button class="button-content">DESPLEGAR</button>
+    </div>
+    <div class="sub-welcome-txt">
+        <h2>Montaje y mantenimiento de equipos</h2>
+        <p>En este módulo aprenderás los principios básicos del montaje y mantenimiento de equipos informáticos. Cubrirás temas como la identificación de componentes, ensamblaje de hardware, instalación de periféricos y diagnóstico y resolución de problemas comunes.</p>
+    </div>
+    <div class="sub-welcome-txt">
+        <h2>Redes Locales</h2>
+        <p>En el módulo de Redes Locales explorarás los fundamentos de las redes informáticas. Estudiarás conceptos como topologías de red, protocolos de comunicación, configuración de dispositivos de red y seguridad en redes locales.</p>
+    </div>
+    <div class="sub-welcome-txt">
+        <h2>Sistemas operativos monopuestos</h2>
+        <p>Este módulo se centra en los sistemas operativos monopuesto más comunes, como Windows y Linux. Aprenderás a instalar, configurar y administrar estos sistemas, así como a gestionar usuarios, permisos y recursos del sistema.</p>
+    </div>
+    <div class="sub-welcome-txt">
+        <h2>Aplicaciones ofimáticas</h2>
+        <p>En este módulo te familiarizarás con las aplicaciones ofimáticas más utilizadas, como procesadores de texto, hojas de cálculo y programas de presentaciones. Adquirirás habilidades para crear y editar documentos, manejar datos y realizar presentaciones efectivas.</p>
+    </div>
+    <div class="sub-welcome-txt">
+        <h2>FOL (Formación y Orientación Laboral)</h2>
+        <p>La FOL aborda temas relacionados con el mercado laboral y la inserción laboral en el sector de la informática. Aprenderás sobre legislación laboral, derechos y deberes del trabajador, seguridad social, búsqueda de empleo y emprendimiento en el ámbito de la informática.</p>
+    </div>
+    <div class="subtitle-txt">
+        Horario
+    </div>
+    <div class="table">
+        <table>
+            <tr>
+                <th class="dark-td-th">Hora</th>
+                <th class="dark-td-th">Lunes</th>
+                <th class="dark-td-th">Martes</th>
+                <th class="dark-td-th">Miércoles</th>
+                <th class="dark-td-th">Jueves</th>
+                <th class="dark-td-th">Viernes</th>
+            </tr>
+            <tr>
+                <td class="dark-td-th">8:00 - 8:55</td>
+                <td>Aplicaciones Ofimáticas</td>
+                <td>Aplicaciones Ofimáticas</td>
+                <td>Redes Locales</td>
+                <td>Montaje y Mantenimiento de Equipos</td>
+                <td>Redes Locales</td>
+            </tr>
+            <tr>
+                <td class="dark-td-th">8:55 - 9:50</td>
+                <td>Montaje y Mantenimiento de Equipos</td>
+                <td>Montaje y Mantenimiento de Equipos</td>
+                <td>Aplicaciones Ofimáticas</td>
+                <td>Montaje y Mantenimiento de Equipos</td>
+                <td>Montaje y Mantenimiento de Equipos</td>
+            </tr>
+            <tr>
+                <td class="dark-td-th">9:50 - 10:45</td>
+                <td>Redes Locales</td>
+                <td>Sistemas Operativos Monopuesto</td>
+                <td>Redes Locales</td>
+                <td>Sistemas Operativos Monopuesto</td>
+                <td>Aplicaciones Ofimáticas</td>
+            </tr>
+            <tr>
+                <td class="dark-td-th">10:45 - 11:15</td>
+                <td class="dark-td-th">Recreo</td>
+                <td class="dark-td-th">Recreo</td>
+                <td class="dark-td-th">Recreo</td>
+                <td class="dark-td-th">Recreo</td>
+                <td class="dark-td-th">Recreo</td>
+            </tr>
+            <tr>
+                <td class="dark-td-th">11:15 - 12:10</td>
+                <td>Sistemas Operativos Monopuesto</td>
+                <td>Formación y Orientación Laboral</td>
+                <td>Sistemas Operativos Monopuesto</td>
+                <td>Aplicaciones Ofimáticas</td>
+                <td>Sistemas Operativos Monopuesto</td>
+            </tr>
+            <tr>
+                <td class="dark-td-th">12:10 - 13:05</td>
+                <td>Aplicaciones Ofimáticas</td>
+                <td>Formación y Orientación Laboral</td>
+                <td>Aplicaciones Ofimáticas</td>
+                <td>Aplicaciones Ofimáticas</td>
+                <td>Aplicaciones Ofimáticas</td>
+            </tr>
+            <tr>
+                <td class="dark-td-th">13:05 - 14:00</td>
+                <td>Formación y Orientación Laboral</td>
+                <td>Redes Locales</td>
+                <td>Formación y Orientación Laboral</td>
+                <td>Redes Locales</td>
+                <td>Formación y Orientación Laboral</td>
+            </tr>       
+        </table>  
+    </div>
+    <script src="../javascript/display-content.js"></script>
+</body>
+</html>

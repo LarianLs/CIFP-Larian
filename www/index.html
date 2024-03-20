@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIFP Larian</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="title-page">
+        CIFP Larian <br>
+        <!-- mobile -->
+        <input type="search" class="search-bar-mobile"> <a href=""><button id="button-search-bar-mobile">Buscar</button></a>
+        <!-- tablet -->
+        <input type="search" class="search-bar-tablet"> <a href=""><button id="button-search-bar-tablet">Buscar</button></a>
+        <!-- laptop -->
+        <input type="search" class="search-bar-laptop"> <a href=""><button id="button-search-bar-laptop">Buscar</button></a> <br>
+    </div>
+    <div class="buttons">
+        <div class="dropdown">
+            <a href=""><button class="button-dropdown">INICIO</button></a>
+        </div>
+        <div class="dropdown" onclick="showOptions('centro')">
+            <button class="button-dropdown">CENTRO</button>
+        </div>
+        <div class="dropdown" onclick="showOptions('profesorado')">
+            <button class="button-dropdown">PROFESORADO</button>
+        </div>
+        <div class="dropdown" onclick="showOptions('alumnado')">
+            <button class="button-dropdown">ALUMNADO</button>
+        </div>
+        <div class="dropdown" onclick="showOptions('cursos')">
+            <button class="button-dropdown">CURSOS</button>
+        </div>        
+    </div>
+    </div>
+    <div id="options-container"></div>
+    <div class="welcome-txt">
+        <p><b>¡Bienvenidos al Edificio de Informática del CIFP Larian!</b></p>
+        <p>Estamos encantados de darles la bienvenida a nuestro Edificio de Informática, donde se imparten los programas de Sistemas Microinformáticos y Redes (SMR) y Desarrollo de Aplicaciones Multiplataforma (DAM). Aquí encontrarás aulas equipadas con todo lo necesario para tu formación en informática, desde computadoras actualizadas hasta acceso a internet.</p>
+    </div>
+    <div class="img-mobile">
+        <img src="images/Instituto1.jpg" alt="Instituto1">
+    </div>
+    <div class="img-tablet">
+        <img src="images/Instituto1.jpg" alt="Instituto1">
+    </div>
+    <div class="img-laptop">
+        <img src="images/Instituto1.jpg" alt="Instituto1">
+    </div>
+    <script src="javascript/display-content.js"></script>
+</body>
+</html>
