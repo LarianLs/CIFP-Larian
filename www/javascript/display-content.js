@@ -5,10 +5,14 @@ function showOptions(type) {
     switch (type) {
         //centro
         case 'centro':
-            options += '<a class="container-content" href="#">EVENTOS</a><br><hr class="hr">';
-            options += '<a class="container-content" href="#">HORARIO</a><br><hr class="hr">';
-            options += '<a class="container-content" href="#">NORMAS</a><br><hr class="hr">';
-            options += '<a class="container-content" href="#">MUNICIPIO</a><br>';
+            options += '<a class="container-content" href="center/schedules.html">HORARIO</a><br><hr class="hr">';
+            options += '<a class="container-content" href="center/rules.html">NORMAS</a><br><hr class="hr">';
+            options += '<a class="container-content" href="center/municipality.html">MUNICIPIO</a><br>';
+            break;
+        case 'centro-2':
+            options += '<a class="container-content" href="../center/schedules.html">HORARIO</a><br><hr class="hr">';
+            options += '<a class="container-content" href="../center/rules.html">NORMAS</a><br><hr class="hr">';
+            options += '<a class="container-content" href="../center/municipality.html">MUNICIPIO</a><br>';
             break;
         // profesorado
         case 'profesorado':

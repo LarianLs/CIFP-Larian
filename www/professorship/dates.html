@@ -25,39 +25,37 @@
         </div>       
     </div> 
     <div id="options-container"></div>
-    <div class="subtitle-txt">
-        Personal
-    </div>
-    <div class="welcome-txt-2">
-        <h2 class="h2">Dirección:</h2>
-        <ul>
-            <li class="li"><strong>Directora:</strong> Dra. Elena Martínez Rodríguez</li>
-            <li class="li"><strong>Subdirectora Académica:</strong> Dra. Laura Sánchez López</li>
-        </ul>
-    </div>
-    <div class="welcome-txt-2">
-        <h2 class="h2">Departamento de Administración:</h2>
-        <ul>
-            <li class="li"><strong>Jefe de Administración:</strong> José Ramón Gómez Pérez</li>
-            <li class="li"><strong>Secretaria Administrativa:</strong> María José Díaz Ruiz</li>
-            <li class="li"><strong>Auxiliar Administrativa:</strong> Marta Gómez López</li>
-        </ul>
-    </div>
-    <div class="welcome-txt-2">
-        <h2 class="h2">Departamento de Informática:</h2>
-        <ul>
-            <li class="li"><strong>Coordinador de Informática:</strong> David González Santos</li>
-        </ul> 
-        <h2 class="h2">Profesores</h2>
-        <ul>
-            <li>Profesor Juan Martínez</li>
-            <li>Profesor Luis García</li>
-            <li>Profesor Antonio Rodríguez</li>
-            <li>Profesor Carlos Pérez</li>
-            <li>Profesor José Gómez</li>
-            <li>Profesor Alberto Sánchez</li>
-        </ul>           
+    <h1 class="subtitle-txt">Solicitud de cita con el tutor</h1>
+    <div class="welcome-txt-3">
+        <form id="citaForm">
+            <label for="nombre">Nombre:</label>
+            <input class="input-form" type="text" id="nombre" name="nombre" required><br><hr>
+            
+            <label for="credencial">DNI/NIE/CIAL:</label>
+            <input class="input-form" type="text" id="credencial1" name="credencial1" required><br><hr>
+    
+            <label for="nombreAlumno">Nombre del alumno:</label>
+            <input class="input-form" type="text" id="nombreAlumno" name="nombreAlumno" required><br><hr>
+
+            <label for="credencial2">DNI/NIE/CIAL:</label>
+            <input class="input-form" type="text" id="credencial2" name="credencial2" required><br><hr>
+            
+            <label for="fecha">Fecha de la cita:</label>
+            <input class="input-form" type="date" id="fecha" name="fecha" required><br><hr>
+            
+            <label for="curso">Curso:</label>
+            <select class="input-form" id="curso" name="curso" required>
+                <option value="SMR 1º">SMR 1º</option>
+                <option value="SMR 2º">SMR 2º</option>
+                <option value="DAM 1º">DAM 1º</option>
+                <option value="DAM 2º">DAM 2º</option>
+            </select><br><hr>
+            <button class="input-button" type="submit">Pedir cita</button>
+            <p id="message"></p>
+        </form>   
     </div>
     <script src="../javascript/display-content.js"></script>
+    <script src="../javascript/show-message.js"></script>
+    <script src="../javascript/send-date-message.js"></script>
 </body>
 </html>
