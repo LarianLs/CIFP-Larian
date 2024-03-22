@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIFP Larian</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <div class="title-page">
+        CIFP Larian <br>
+        <!-- mobile -->
+        <input type="search" class="search-bar-mobile"> <a href=""><button id="button-search-bar-mobile">Buscar</button></a>
+        <!-- tablet -->
+        <input type="search" class="search-bar-tablet"> <a href=""><button id="button-search-bar-tablet">Buscar</button></a>
+        <!-- laptop -->
+        <input type="search" class="search-bar-laptop"> <a href=""><button id="button-search-bar-laptop">Buscar</button></a> <br>
+    </div>
+    <div class="buttons">
+        <div class="dropdown">
+            <a href="../index.html"><button class="button-dropdown">INICIO</button></a>
+        </div>
+        <div class="dropdown" onclick="showOptions('alumnado-2')">
+            <button class="button-dropdown">ALUMNADO</button>
+        </div>       
+    </div> 
+    <div id="options-container"></div>
+    <div class="subtitle-txt">
+        Objetivos académicos
+    </div>
+    <div class="welcome-txt-2">
+        <h2 class="h2">Ciclo Formativo de Grado Medio: Sistemas Microinformáticos y Redes (SMR)</h2>
+        <p>El ciclo formativo de grado medio en Sistemas Microinformáticos y Redes tiene como objetivo formar profesionales capaces de realizar montaje y mantenimiento de sistemas microinformáticos, así como de instalación y configuración de software.</p>
+        <p>Los objetivos académicos de SMR incluyen:</p>
+        <ul>
+            <li>Instalar y mantener servicios de redes locales.</li>
+            <li>Realizar la administración de sistemas operativos monopuesto y multipuesto en red.</li>
+            <li>Aplicar técnicas y procedimientos relacionados con la seguridad en sistemas microinformáticos.</li>
+            <li>Ofrecer soporte técnico al usuario final.</li>
+        </ul>
+    </div>    
+
+    <div class="welcome-txt-2">
+        <h2 class="h2">Ciclo Formativo de Grado Superior: Desarrollo de Aplicaciones Multiplataforma (DAM)</h2>
+        <p>El ciclo formativo de grado superior en Desarrollo de Aplicaciones Multiplataforma tiene como objetivo formar profesionales capaces de desarrollar, implantar y mantener aplicaciones informáticas multiplataforma, utilizando tecnologías y entornos de desarrollo específicos.</p>
+        <p>Los objetivos académicos de DAM incluyen:</p>
+        <ul>
+            <li>Analizar y diseñar aplicaciones informáticas de propósito general y sistemas informáticos.</li>
+            <li>Desarrollar aplicaciones multiplataforma con acceso a bases de datos.</li>
+            <li>Implementar servicios y procesos.</li>
+            <li>Realizar pruebas y documentación de aplicaciones.</li>
+        </ul>        
+    </div>
+    <div class="subtitle-txt">
+        ¿Qué salidas tienen? <br>
+        <button class="button-content">DESPLEGAR</button>
+    </div>
+    <div class="sub-welcome-txt">
+        <h2 class="h2">Ejemplos de Trabajos para el Ciclo Formativo de Grado Medio (SMR)</h2>
+        <h2>Técnico de Soporte Informático</h2>
+
+        <p>Proporcionar asistencia técnica a usuarios.</p>
+        <p>Diagnosticar y resolver incidencias de hardware y software.</p>
+        <p>Realizar mantenimiento preventivo en equipos.</p>
+
+        <h2>Técnico de Redes Informáticas</h2>
+        <p>Configurar y mantener redes locales.</p>
+        <p>Instalar y administrar servicios de red.</p>
+        <p>Resolver problemas de conectividad.</p>
+        
+        <h2>Técnico de Sistemas Microinformáticos</h2>
+        <p>Montar y ensamblar equipos informáticos.</p>
+        <p>Instalar sistemas operativos y software.</p>
+        <p>Realizar tareas de mantenimiento de hardware.</p>
+    </div>
+    <div class="sub-welcome-txt">
+        <h2 class="h2">Ejemplos de Trabajos para el Ciclo Formativo de Grado Superior (DAM)</h2>
+        <h2>Desarrollador de Aplicaciones Móviles</h2>
+        <p>Diseñar y desarrollar aplicaciones móviles para diferentes plataformas.</p>
+        <p>Implementar funcionalidades avanzadas utilizando lenguajes de programación.</p>
+        <p>Realizar pruebas de usabilidad y rendimiento.</p>
+        
+        <h2>Programador Web Full Stack</h2>
+        <p>Desarrollar aplicaciones web completas en frontend y backend.</p>
+        <p>Utilizar tecnologías como HTML, CSS, JavaScript y frameworks.</p>
+        <p>Implementar y mantener bases de datos.</p>
+        
+        <h2>Analista Programador</h2>
+        <p>Analizar requisitos de software y diseñar soluciones técnicas.</p>
+        <p>Desarrollar y mantener aplicaciones empresariales.</p>
+        <p>Colaborar en proyectos de desarrollo de software.</p>      
+    </div>
+    <script src="../javascript/display-content.js"></script>
+</body>
+</html>

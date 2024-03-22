@@ -25,9 +25,12 @@ function showOptions(type) {
             break;
         //alumnado
         case 'alumnado':
-            options += '<a class="container-content" href="#">OBJETIVOS ACADÉMICOS</a><br><hr class="hr">';
-            options += '<a class="container-content" href="#">ORIENTACIÓN ACADÉMICA</a><br><hr class="hr">';
-            options += '<a class="container-content" href="#">PLANTILLA DE JUSTIFICANTE</a><br>';
+            options += '<a class="container-content" href="studentbody/academic-objectives.html">OBJETIVOS ACADÉMICOS</a><br><hr class="hr">';
+            options += '<a class="container-content" href="studentbody/proof-template.html">PLANTILLA DE JUSTIFICANTE</a><br>';
+            break;
+        case 'alumnado-2':
+            options += '<a class="container-content" href="../studentbody/academic-objectives.html">OBJETIVOS ACADÉMICOS</a><br><hr class="hr">';
+            options += '<a class="container-content" href="../studentbody/proof-template.html">PLANTILLA DE JUSTIFICANTE</a><br>';
             break;
         //cursos
         case 'cursos':
